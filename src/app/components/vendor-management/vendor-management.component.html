@@ -1,0 +1,12 @@
+<div class="container">
+    <h2>Vendor Management</h2>
+    <input #vendorName type="text" placeholder="Vendor Name" class="form-control mb-2">
+    <button class="btn btn-primary" (click)="addVendor(vendorName.value)">Add Vendor</button>
+    <ul class="list-group mt-3">
+      <li *ngFor="let vendor of vendors" class="list-group-item d-flex justify-content-between">
+        {{ vendor }}
+        <button class="btn btn-danger btn-sm" (click)="removeVendor(vendor)">Remove</button>
+      </li>
+    </ul>
+  </div>
+  

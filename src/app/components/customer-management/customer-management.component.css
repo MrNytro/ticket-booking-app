@@ -1,0 +1,64 @@
+/* Layout for customer management */
+.customer-container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.customer-header {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Customer list styling */
+.customer-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.customer-list li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* VIP toggle styling */
+.vip-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.vip-toggle input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.vip-toggle-label {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Button styles */
+.customer-list button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.customer-list button:hover {
+  background-color: #0056b3;
+}

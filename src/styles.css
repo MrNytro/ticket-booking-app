@@ -1,0 +1,7 @@
+/* Import Angular Material Theme */
+@import '@angular/material/prebuilt-themes/azure-blue.css'; /* Remove the ~ */
+
+/* Custom styles can go below */
+body {
+  font-family: Arial, sans-serif;
+}

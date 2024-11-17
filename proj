@@ -1,0 +1,31 @@
+/src
+├── /app
+    ├── /components
+        ├── /ticket-dashboard
+            ├── ticket-dashboard.component.html
+            ├── ticket-dashboard.component.css
+            ├── ticket-dashboard.component.ts
+        ├── /vendor-management
+            ├── vendor-management.component.html
+            ├── vendor-management.component.css
+            ├── vendor-management.component.ts
+        ├── /customer-management
+            ├── customer-management.component.html
+            ├── customer-management.component.css
+            ├── customer-management.component.ts
+    ├── /services
+        ├── ticket.service.ts
+        ├── vendor.service.ts
+        ├── customer.service.ts
+    ├──app.module.ts
+    ├──app-routing.module.ts
+    ├──app.component.css
+    ├──app.component.html
+    ├──app.component.spec.ts
+    ├──app.component.ts
+    ├──app.config.ts
+    ├──app.routes.ts
+├── /assets (i dobnt have this yet)
+├── /environments (i dobnt have this yet)
+├── styles.css
+├── main.css

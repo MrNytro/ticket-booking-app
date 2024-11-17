@@ -1,0 +1,76 @@
+/* Layout for vendor management */
+.vendor-container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.vendor-header {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Vendor form styling */
+.vendor-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.vendor-form input,
+.vendor-form button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.vendor-form input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.vendor-form button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.vendor-form button:hover {
+  background-color: #218838;
+}
+
+/* Vendor list styling */
+.vendor-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vendor-list li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.vendor-list button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.vendor-list button:hover {
+  background-color: #c82333;
+}

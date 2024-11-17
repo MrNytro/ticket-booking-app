@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class CustomerManagementComponent {
   customers: any[] = [
     { name: 'Nytro', isVip: false },
-    { name: 'Jane Doe', isVip: false }
+    { name: 'Lostsomehope', isVip: false }
   ];
 
   toggleVip(customer: any): void {
